@@ -1,0 +1,105 @@
+.item{
+    width: 100px;
+    height: 100px;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: start;
+    background-color: skyblue;
+}
+.item:hover{
+    width: 200px;
+    height: 300px;
+    justify-content: end;
+    background-color: blue;
+    transition: justify-content 0.3s linear, width
+    5s;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: rebeccapurple;
+    border-radius: 0.5rem;
+    color: white;
+    animation-name: nasir;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    margin-top: 5rem;
+    animation-iteration-count: infinite;
+
+}
+@keyframes nasir {
+    0%{
+        background-image: url(./333.webp);
+    }
+    10%{
+        background-image: url(./222.webp);
+    }
+    20%{
+        background-image: url(./444.webp);
+    }
+    30%{
+        background-color: indigo;
+    }
+    40%{
+        background-color: purple;
+    }
+    50%{
+        background-color: palevioletred;
+    }
+    60%{
+        background-color: orange;
+    }
+    70%{
+        background-color: navy;
+    }
+    80%{
+        background-color: aqua;
+    }
+    90%{
+        background-color: chartreuse;
+    }
+    100%{
+        background-color: darkred;
+    }
+}
+.box1{
+    width: 150px;
+    height: 150px;
+    background-color: rebeccapurple;
+    border-radius: 0.5rem;
+    color: white;
+    animation-name: kogbe;
+    animation-duration: 2s;
+    
+    margin-top: 5rem;
+    animation-iteration-count: infinite;
+    border-radius: 8rem;
+    text-align: center;
+    
+}
+@keyframes kogbe {
+    0%{
+        background-color: red;
+        transform: rotate(0deg);
+    }
+    25%{
+        background-color: orange;
+        transform: rotate(45deg);
+    }
+    50%{
+        background-color: yellow;
+        transform: rotate(90deg);
+    }
+    55%{
+        background-color:green ;
+        transform: rotate(180deg);
+    }
+    75%{
+        background-color: blue;
+        transform: rotate(270deg);
+    }
+    100%{
+        background-color: purple;
+        transform: rotate(360deg);
+    }
+}

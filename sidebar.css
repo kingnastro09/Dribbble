@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sideway{
+    width: 100rem;
+    height: 4rem;
+    background-color: red;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+}
+.why-them{
+    background-color: green;
+    height: 4rem;
+    text-align: center;
+}
